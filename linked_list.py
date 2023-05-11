@@ -40,11 +40,4 @@ class LinkedList:
     #     return length
 
 
-my_list = LinkedList("Hello! I am first node!")
-my_list.add_node("Hello! I am second node!")
-my_list.add_node("Hello! I am third node!")
-my_list.add_node("Hello! I am a fourth node!")
 
-print(my_list)
-# print(my_list.get_length())
-print(len(my_list))
