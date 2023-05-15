@@ -1,13 +1,13 @@
 class Stack:
     def __init__(self):
-        self.elements = []
+        self._elements = []
 
     def add_item(self, item):
-        self.elements.append(item)
+        self._elements.append(item)
 
     def get_item(self):
-        if len(self.elements) != 0:
-            return self.elements.pop()
+        if len(self._elements) != 0:
+            return self._elements.pop()
         else:
             return None
 
