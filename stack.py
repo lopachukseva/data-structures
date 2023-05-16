@@ -11,6 +11,9 @@ class Stack:
         else:
             return None
 
+    def __len__(self):
+        return len(self._elements)
+
 
 s = Stack()
 
@@ -20,6 +23,7 @@ s.add_item(3)
 s.add_item(4)
 s.add_item(5)
 
+print(len(s))
 
 print(s.get_item())
 print(s.get_item())

@@ -38,6 +38,3 @@ class LinkedList:
     #         node = node.get_next()
     #         length += 1
     #     return length
-
-
-
