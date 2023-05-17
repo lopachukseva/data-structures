@@ -11,6 +11,9 @@ class Queue:
         else:
             return None
 
+    def __len__(self):
+        return len(self._elements)
+
 
 q = Queue()
 
@@ -19,6 +22,8 @@ q.add_item(2)
 q.add_item(3)
 q.add_item(4)
 q.add_item(5)
+
+print(len(q))
 
 print(q.get_item())
 print(q.get_item())
